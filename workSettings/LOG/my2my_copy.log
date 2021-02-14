@@ -1,0 +1,51 @@
+[2021-02-11  15:37:11] Process started.
+
+[2021-02-11  15:37:11] Source database:-- MySQL database --
+Host: remotemysql.com
+Port: 3306
+User: root
+Password: Yes
+Database: test
+CharSet: utf8
+Use SSH: No
+Use SSL: No
+
+
+[2021-02-11  15:37:11] Destination database:-- MySQL database --
+Host: remotemysql.com
+Port: 3306
+User: root
+Password: Yes
+Database: destresult
+CharSet: utf8
+Use SSH: No
+Use SSL: No
+
+
+[2021-02-11  15:37:12] Connecting to the source database.
+
+[2021-02-11  15:37:13] Connecting to the destination database.
+
+[2021-02-11  15:37:14] Creating table 'repairs'.
+
+[2021-02-11  15:37:14] Creating table 'services'.
+
+[2021-02-11  15:37:14] Creating table 'shops'.
+
+[2021-02-11  15:37:14] Copying data for table 'repairs'.
+
+[2021-02-11  15:37:14] Done for 00:00:00. Inserted: 2
+
+[2021-02-11  15:37:14] Copying data for table 'services'.
+
+[2021-02-11  15:37:14] Done for 00:00:00. Inserted: 41
+
+[2021-02-11  15:37:14] Copying data for table 'shops'.
+
+[2021-02-11  15:37:14] Done for 00:00:00. Inserted: 3
+
+[2021-02-11  15:37:14] Closing connections.
+
+[2021-02-11  15:37:14] Process completed successfully.
+
+[2021-02-11  15:37:14] Total time elapsed - 00:00:04
